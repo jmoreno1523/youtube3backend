@@ -77,7 +77,7 @@ const validateCredentials = async (req, res) => {
   }
 
   const Profile = (req, res) => {
-    const uploadSingle = upload("youtube-back-aws").single("file");
+    const uploadSingle = upload("videosparcial").single("file");
     uploadSingle(req, res, async (err) => {
       if (err) return res.status(400).json({ success: false, message: err.message });
 
