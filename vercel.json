@@ -5,12 +5,6 @@
     ],
     "routes": [
       { "src": "/(.*)", "dest": "/index.js" }
-    ],
-    "functions": {
-    "index": {
-      "maxDuration": 10,
-      "maxBodySize": "100mb"
-    }
-  }
+    ]
 }
   
